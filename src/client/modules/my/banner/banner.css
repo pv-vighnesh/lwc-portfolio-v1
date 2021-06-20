@@ -5,6 +5,7 @@
 .banner-text {
     max-width: 540px;
     padding: 1rem 0rem;
+    color: #504F60;
 }
 
 .content-center {
@@ -22,4 +23,11 @@
 .banner-button {
     margin: 1rem 0rem;
     width: 334px;
+    color: #504F60; 
+}
+
+.banner-button:hover {
+    color: #fff;
+    background-color:  #1798C1;
+    border-color: #1798C1;
 }
