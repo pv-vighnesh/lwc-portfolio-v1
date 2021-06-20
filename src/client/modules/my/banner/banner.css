@@ -1,0 +1,25 @@
+.banner {
+    height: calc(100vh - 62.375px);
+}
+
+.banner-text {
+    max-width: 540px;
+    padding: 1rem 0rem;
+}
+
+.content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-button {
+    margin: 1rem 0rem;
+    width: 334px;
+}

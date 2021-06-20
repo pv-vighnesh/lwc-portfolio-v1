@@ -1,0 +1,17 @@
+.about {
+    padding: 1rem 1.5rem;
+}
+
+.about-summary {
+    font-size: 1rem;
+}
+
+.text-link {
+    text-decoration: none;
+    font-style: italic;
+}
+
+.text-highlight {
+    font-weight: bold;
+    color: #1798C1;
+}
