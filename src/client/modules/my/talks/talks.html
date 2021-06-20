@@ -1,0 +1,23 @@
+<template>
+    <section>
+        <div class="talks-head">
+            <h2 class="talks-head-title">Talks</h2>
+            <p class="fs-5.5 ">I like to share my Learning, my thoughts with the community. Here are some of my talks.
+            </p>
+        </div>
+        <div class="container-fluid">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <template for:each={talksData} for:item="talk">
+                    <div class="col" key={talksData.title}>
+                        <div class="card h-100">
+                          <div class="card-body">
+                              <img src={talk.image} class="card-img-top mb-3" alt="Image of talk" height="70%">
+                              <h5 class="card-title text-start mb-4">{talk.title}</h5>
+                            </div>
+                        </div>
+                      </div>
+                </template>
+            </div>
+        </div>
+    </section>
+</template>
