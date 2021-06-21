@@ -1,0 +1,18 @@
+.footer-container {
+    margin-top: 6rem;
+    background-color: #0D3344 !important;
+}
+
+.footer-text-main {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.footer-text-sum {
+    margin: auto;
+    padding-top: 1.5rem;
+}
+
+.footer-bottom {
+    background-color: #052634;
+}
