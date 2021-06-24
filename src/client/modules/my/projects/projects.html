@@ -2,21 +2,22 @@
     <section>
         <div class="project-head">
             <h2 class="project-head-title">Projects</h2>
-            <p class="fs-5.5">When I'm not working my usual stuff, I usually spend my time building some other stuff,<br/> exploring my interests along the lines of Web, Frontend, and Project Management.</p>
+            <p class="fs-5.5">When I'm not working my usual stuff, I usually spend my time building some other
+                stuff! xD<br /> This space contains few of my projects.</p>
         </div>
         <div class="container-fluid">
             <div class="row row-cols-1 row-cols-md-4 g-4">
                 <template for:each={projectData} for:item="project">
                     <div class="col" key={projectData.title}>
                         <div class="card h-100">
-                          <div class="card-body">
-                              <h5 class="card-title text-start mb-4">{project.title}</h5>
-                              <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-                              <p class="card-text">{project.description}</p>
-                              <a href={project.link} target=_blank class="card-link">GitHub</a>
+                            <div class="card-body">
+                                <h5 class="card-title text-start mb-4">{project.title}</h5>
+                                <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+                                <p class="card-text">{project.description}</p>
+                                <a href={project.link} target=_blank class="card-link">GitHub</a>
                             </div>
                         </div>
-                      </div>
+                    </div>
                 </template>
             </div>
         </div>

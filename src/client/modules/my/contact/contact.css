@@ -16,3 +16,14 @@
 .footer-bottom {
     background-color: #052634;
 }
+
+.iconify { 
+    width: 25px;
+    height: 25px; 
+    color: white;
+}
+
+.iconify.devto {
+    width: 29px;
+    height: 29px; 
+}
