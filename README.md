@@ -1,6 +1,16 @@
 # my-portfolio-v1
 
-Here will be some information about the app.
+This is the first iteration of https://pv-vighnesh.github.io/ built with LWC OSS and hosted on Github pages.
+
+## Forking this Repo (Please read!)
+I value sharing my work with the community but Plagiarism is bad. 
+Yes, you can fork this repo. Please give me proper credit by linking back to https://pv-vighnesh.github.io/ or https://github.com/pv-vighnesh. Thanks!
+
+If you have any questions on implementation, please refer to [LWC OSS docs.](https://lwc.dev/)
+
+## Acknowledgements 
+- Icons - https://feathericons.com/ and https://iconify.design/
+- https://getbootstrap.com/
 
 ## How to start?
 
