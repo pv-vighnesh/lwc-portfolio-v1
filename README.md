@@ -1,4 +1,5 @@
 # my-portfolio-v1
+![banner-img](https://user-images.githubusercontent.com/74532975/123541223-fa3bfe00-d760-11eb-975a-4b7ca930b86b.PNG)
 
 This is the first iteration of https://pv-vighnesh.github.io/ built with LWC OSS and hosted on Github pages.
 
